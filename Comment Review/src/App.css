@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.ForH2{
+  margin-left: 35% !important;
+  margin-top: 5% !important;
+  margin-bottom: 20px !important;
+}
+.ForInput{
+  margin-left: 32% !important;
+  margin-top: 2% !important;
+}
+.ForBTn{
+  margin-left: 31% !important;
+  margin-top: 2% !important;
+  padding: 5px 20px !important;
+  background-color: darkblue !important;
+  border: 1px solid darkblue !important;
+  color: white !important;
+  border-radius: 20px !important;
+}
+.ForBTn:hover{
+  background-color: aqua !important;
+  border: 1px solid aqua !important;
+  color: black !important;
+}
+.ForPreview{
+  margin-left: 31% !important;
+  font-weight: 700 !important;
+}
+.ForOutput{
+  margin-left: 30% !important;
+  font-weight: 500 !important;
+}
