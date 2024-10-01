@@ -1,0 +1,401 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.forHeadtitle{
+  font-family: 'Dancing Script' !important;
+  color: white !important;
+  padding-left: 120px;
+  padding-top: 100px;
+  font-size: 25px !important;
+}
+.fornav{
+  height: 70px;
+  padding: 50px 0px !important;
+}
+.fornavLi{
+  padding-left: 300px;
+}
+.fornavFont{
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  color: #ffbe33 !important;
+}
+.fornavFontWhite{
+  font-size: 17px !important;
+  padding-left: 25px !important;
+  font-weight: 400 !important;
+  color: white !important;
+}
+.fornavFontWhite:hover{
+  color: #ffbe33 !important;
+  transition: all 0.3s !important;
+}
+.ForHeadIcon{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  font-size: 17px !important;
+  padding-top: 7px !important;
+  cursor: pointer !important;
+  color: white !important;
+}
+.ForHeadIcon:hover{
+  color: #ffbe33 !important;
+  transition: all 0.3s !important;
+}
+.forsearch{
+  padding-right: 20px !important;
+}
+.forheadBTN{
+  padding: 8px 30px !important;
+  margin-right: 90px !important;
+  border-radius: 45px !important;
+  transition: all 0.3s !important;
+  display: inline-block !important;
+  background-color: #ffbe33 !important;
+  border: none;
+  color: white !important;
+  font-size: 18px !important;
+}
+.forheadBTN:hover{
+  background-color: #f7b423 !important;
+}
+.slideIMG{
+  background: url(./images/HeaderImg.jpg) !important;
+  width: 2700px !important;
+  height: 550px !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  left: 360px !important;
+  /* background-color: black !important; */
+  align-items: center !important;
+}
+.slideIMG2{
+  background: url(./images/Image2.png) !important;
+  width: 40% !important;
+  top: 100px !important;
+  height: 550px !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  left: 690px !important;
+  align-items: center !important;
+}
+.slideIMG3{
+  background: url(./images/Image3.png) !important;
+  width: 35% !important;
+  top: 40px !important;
+  height: 550px !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  left: 760px !important;
+  align-items: center !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.slideH2{
+  font-family: "Pacifico" !important;
+  color: white !important;
+  font-size: 45px !important;
+  top: 70px !important;
+  position: relative !important;
+  right: 200px !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+.slideP{
+  font-family: "Whisper", cursive !important;
+  top: 70px !important;
+  position: relative !important;
+  right: 200px !important;
+  color: white !important;
+  font-size: 20px !important;
+  line-height: 39px !important;
+  word-spacing: 2px !important;
+}
+.BTNSpacing{
+  top: 30px !important;
+  position: relative !important;
+  right: 200px !important;
+  font-weight: 700 !important;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.slideH22{
+  font-family: "Lobster" !important;
+  color: white !important;
+  font-size: 45px !important;
+  bottom: 55px !important;
+  position: relative !important;
+  right: 520px !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+.slideP2{
+  font-family: "Whisper", cursive !important;
+  bottom: 50px !important;
+  position: relative !important;
+  right: 520px !important;
+  color: white !important;
+  font-size: 20px !important;
+  line-height: 39px !important;
+  word-spacing: 2px !important;
+}
+.BTNSpacing2{
+  bottom: 90px !important;
+  position: relative !important;
+  right: 520px !important;
+  font-weight: 700 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.slideH23{
+  font-family: "Satisfy" !important;
+  color: white !important;
+  font-size: 45px !important;
+  /* bottom: 10px !important; */
+  position: relative !important;
+  right: 580px !important;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+.slideP3{
+  font-family: "Whisper", cursive !important;
+  /* bottom: 50px !important; */
+  position: relative !important;
+  right: 580px !important;
+  color: white !important;
+  font-size: 20px !important;
+  line-height: 39px !important;
+  word-spacing: 2px !important;
+  text-align: left !important;
+}
+.BTNSpacing3{
+  bottom: 40px !important;
+  position: relative !important;
+  right: 580px !important;
+  font-weight: 700 !important;
+}
+.SecOneMainDiv{
+  margin-top: 100px !important;
+  margin-left: 150px !important;
+  margin-bottom: 100px !important;
+}
+.SecOneOneDiv{
+  height: 220px !important;
+  width: 40% !important;
+  background-color: #222831 !important;
+  border-radius: 10px !important;
+}
+.ForSecOneImg{
+  background: url(./images/SecOneImg.jpg) !important;
+  height: 170px !important;
+  width: 170px !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  margin-top: 20px !important;
+  margin-left: 30px !important;
+  border-radius: 50% !important;
+  border: 5px solid rgb(255, 255, 0) !important;
+}
+.SecOneH3{
+  color: white !important;
+  margin-left: 70px !important;
+  margin-top: 20px !important;
+}
+.Seconeh1{
+  color: white !important;
+  margin-left: 70px !important;
+  /* margin-top: 10px !important; */
+}
+.SecOneBTn{
+  margin-left: 70px !important;
+  /* margin-top: 1px !important; */
+  padding: 10px 30px !important;
+  color: white !important;
+  background-color: #FFBE33 !important;
+  border: 0px solid #FFBE33 !important;
+  border-radius: 30px !important;
+  font-size: 17px !important;
+}
+.SecOneBTn:hover{
+  background-color: #fcb316 !important;
+}
+.forCartSymbol{
+  margin-left: 20px !important
+}
+.SecOneOneDiv2{
+    height: 220px !important;
+    width: 40% !important;
+    background-color: #222831 !important;
+    border-radius: 10px !important;
+    margin-left: 40px;
+}
+.forDiv2Img{
+  background: url(./images/SecOneImg2.jpg) !important;
+  background-size: cover !important;
+}
+.ForSecTwoHeading{
+  margin-left: 42%;
+  margin-bottom: 80px;
+}
+.card {
+  margin-left: 90px !important;
+  margin-bottom: 50px !important;
+  border: 0px solid #F1F2F3 !important;
+  border-radius: 20px !important;
+}
+.ForSecTwoBorder{
+  background-color: #F1F2F3 !important;
+  height: 190px !important;
+  border-bottom-left-radius: 20% !important;
+}
+.forSecImg1{
+  background: url(./images/SecTwoImg1.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 150px !important;
+  width: 100% !important;
+  margin: 20px 0px 0px 80px !important;
+  align-items: center !important;
+  text-align: center !important;
+  overflow: hidden !important;
+  transition: all ease ease 100s !important;
+}
+.forSecImg2{
+  background: url(./images/SecTwoImg2.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 120px !important;
+  width: 100% !important;
+  margin: 20px 0px 0px 70px !important;
+  align-items: center !important;
+  text-align: center !important;
+  overflow: hidden !important;
+  transition: all ease ease 100s !important;
+}
+.forSecImg2:hover{
+  height: 140px !important;
+  margin: 20px 0px 0px 70px !important;
+}
+.forSecImg1:hover{
+  height: 170px !important;
+  margin: 20px 0px 0px 70px !important;
+}
+.forSecImg3{
+  background: url(./images/SecTwoImg3.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 130px !important;
+  width: 100% !important;
+  margin: 20px 0px 0px 90px !important;
+  align-items: center !important;
+  text-align: center !important;
+  overflow: hidden !important;
+  transition: all ease ease 100s !important;
+}
+.forSecImg3:hover{
+  height: 140px !important;
+  margin: 20px 0px 0px 80px !important;
+}
+.forSecImg4{
+  background: url(./images/SecTwoImg4.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 130px !important;
+  width: 100% !important;
+  margin: 20px 0px 0px 40px !important;
+  align-items: center !important;
+  text-align: center !important;
+  overflow: hidden !important;
+  transition: all ease ease 100s !important;
+}
+.forSecImg4:hover{
+  height: 140px !important;
+  margin: 20px 0px 0px 40px !important;
+}
+.forSecImg5{
+  background: url(./images/SecTwoImg5.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 140px !important;
+  width: 100% !important;
+  margin: 20px 0px 0px 65px !important;
+  align-items: center !important;
+  text-align: center !important;
+  overflow: hidden !important;
+  transition: all ease ease 100s !important;
+}
+.forSecImg5:hover{
+  height: 160px !important;
+  margin: 20px 0px 0px 45px !important;
+}
+.forSecImg6{
+  background: url(./images/SecTwoImg6.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 140px !important;
+  width: 100% !important;
+  margin: 20px 0px 0px 80px !important;
+  align-items: center !important;
+  text-align: center !important;
+  overflow: hidden !important;
+  transition: all ease ease 100s !important;
+}
+.forSecImg6:hover{
+  height: 160px !important;
+  margin: 20px 0px 0px 80px !important;
+}
+.forFont{
+  color: white !important;
+}
+.card{
+  background-color: rgba(0, 0, 0, 0.843) !important;
+}
+.forcart{
+  background-color: #f7b423;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+.ForSecTwoBtn{
+  padding: 10px 70px !important;
+  margin-left: 42% !important;
+  margin-bottom: 30px !important;
+  border: 0px solid #FFBE33 !important;
+  background-color: #FFBE33 !important;
+  border-radius: 40px !important;
+  color: rgb(255, 255, 255) !important;
+}
+.ForSecTwoBtn:hover{
+  background-color: #ffbe33e9 !important;
+}
+.forFooter{
+  background-color: #222831 !important;
+}
+.forfont{
+  color: white !important;
+}
+.ForFooterDiv{
+  margin-top: 50px !important;
+}
+.forFootSpace{
+  margin-top: 10px;
+  margin-bottom: 17px;
+}
+.forSymbols{
+  margin: 15px 10px;
+  font-size: 22px;
+}
+.forfotth2{
+  margin-left: 95px !important;
+}
+.forfottsym{
+  margin-left: 75px !important;
+}
+.forFotSpacing{
+  margin-left: 60px !important;
+}
