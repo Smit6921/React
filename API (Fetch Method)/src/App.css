@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Form Start */
+
+.ForForms {  
+  position: absolute;
+  /* left: 15%; */
+  width: 100%;
+  /* top: 51px; */
+  background-color: #f0f0f0;  
+  padding: 40px 0px 40px 150px;  
+  /* height: 700%; */
+  /* border-radius: 5px;   */
+}  
+
+.ForDataTable{
+  position: absolute;
+  left: 5%;
+  width: 85%;
+  top: 170px;
+  background-color: #f0f0f0 !important; 
+  padding: 20px;
+  /* height: 700px; */
+}
+table{
+  margin-left: 10px;
+  margin-top: 143px;
+  text-align: center;
+  border-radius: 15px;
+  border: 3px solid white;
+}
+.ForDogImg{
+  margin-top: 2%;
+  margin-left: 2%;
+  height: 300px;
+  width: 300px;
+}
+button {  
+  padding: 10px 15px;  
+  background-color: #007bff;  
+  color: white;  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer; 
+  margin-left: 2%; 
+} 
+.ForBTN{
+  margin-left: 450px;
+  margin-top: 70px;
+  padding: 15px 45px;
+} 
+
+.ForDataBTN{
+  margin-left: 450px;
+  /* margin-top: 0px; */
+  padding: 15px 45px;
+}
+
+button:hover {  
+  background-color: #0056b3;  
+}
+
+/* .ForHeading{
+  margin-left: 43%;
+  color: red;
+} */
+
+/* .ForDisFlex{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+} */
+/* .ForChekBox{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 230px;
+} */
+input{
+  margin-left: 10px;
+  padding: 5px 70px;
+}
+
+/* label{
+  margin-left: 10px;
+} */
+
+td{
+  padding: 10px 0px;
+}
+.ForEditBTN{
+  margin-right: 15px;
+  /* margin-left: 15px; */
+}
+.ForDelBTN{
+  margin-right: 15px;
+}
+/* .ForSpace{
+  margin-left: 70px;
+} */
