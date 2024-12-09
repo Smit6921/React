@@ -15,7 +15,7 @@ export default function Form() {
     show: false
   });
 
-    const [item , setItem] = useState(() => {
+  const [item , setItem] = useState(() => {
     const storeData = localStorage.getItem("data");
     return storeData ? JSON.parse(storeData) : [];
   });
