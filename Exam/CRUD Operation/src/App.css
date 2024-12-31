@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  /* background-color: #f4f4f4; */
+}
+header{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(254, 227, 203);
+  position: fixed;
+  /* left: 15%; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  padding: 0px 10px;
+}
+.logo{
+  margin: 10px 450px ;
+}
+/* ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 50px;
+}
+ul li{
+  padding: 0px 10px;
+  font-weight: bolder;
+}
+.sidebar{       
+  width: 15%;
+  height: 110vh;
+  position: fixed;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  text-align: center
+}
+.SideH1{
+  margin-top: 70px;
+  font-size: 40px;
+}
+.SideUl{
+  margin-top: 50px;
+}
+
+.ForSideLi{
+  padding: 30px 0px;
+  justify-items: left;
+  font-size: 20px;
+} */
+
+/* Form Start */
+
+/* body {  
+  font-family: Arial, sans-serif;  
+  background-color: #f4f4f4;  
+  margin: 0;  
+  padding: 20px;  
+}   */
+
+.ForForms {  
+  background-color: white;  
+  border-radius: 8px;  
+  padding: 20px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+  max-width: 900px;
+  margin-left: 200px;  
+  /* color: black; */
+  /* margin: 100px;   */
+}  
+
+.ForHeading {  
+  text-align: center;  
+  color: #333;  
+  margin-top: 40px;  
+}  
+
+h4 {  
+  color: #555;  
+  margin-bottom: 5px;  
+}
+
+.ForNames{
+  color: black;
+}
+
+.ForDisFlex {  
+  display: flex;  
+  flex-direction: column;  
+  margin-bottom: 15px;  
+}  
+
+input[type='text'],  
+input[type='email'],  
+input[type='number'] {  
+  padding: 12px;  
+  border: 1px solid #ddd;  
+  border-radius: 4px;  
+  transition: border-color 0.3s, box-shadow 0.3s;  
+  font-size: 16px;  
+  width: 100%;  
+}  
+
+input[type='text']:focus,  
+input[type='email']:focus,  
+input[type='number']:focus {  
+  border-color: #007bff;  
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  
+  outline: none;  
+}  
+
+label {  
+  display: inline-block;  
+  margin-top: -8px;  /* Adjust alignment of checkbox label */  
+  font-size: 14px;  
+}  
+
+button {  
+  background-color: #007bff;  
+  color: white;  
+  padding: 12px;  
+  border: none;  
+  border-radius: 4px;  
+  cursor: pointer;  
+  font-size: 16px;  
+  transition: background-color 0.3s, transform 0.2s;  
+  width: 100%;  
+}  
+
+button:hover {  
+  background-color: #0056b3;  
+  transform: translateY(-2px);  
+}  
+
+table {  
+  width: 100%;  
+  border-collapse: collapse;  
+  margin-top: 20px;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}  
+
+th,  
+td {  
+  padding: 12px;  
+  text-align: left;  
+  border-bottom: 1px solid #ddd;  
+}  
+
+th {  
+  background-color: #f7f7f7;  
+}  
+
+td button {  
+  background-color: #dc3545;  
+  border: none;  
+  color: white;  
+  padding: 5px 10px;  
+  border-radius: 4px;  
+  cursor: pointer;  
+  transition: background-color 0.3s;  
+}  
+
+td button:hover {  
+  background-color: #c82333;  
+}
+
+/* Employee Data */
+.ForBTN2{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px;
+  margin-left: 50px;
+}
+
+.ForBTN2:hover {  
+  background-color: #0056b3;  
+  transform: translateY(-2px);  
+} 
+
+.ForEdiBTn{
+    padding: 8px 5px;
+    margin: 2px;
+}
