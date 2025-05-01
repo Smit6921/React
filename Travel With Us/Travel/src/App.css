@@ -1,0 +1,405 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* Header Start */
+.ForHeader{
+  height: 77px;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.865); */
+  display: flex;
+  flex-wrap: wrap;
+  /* position: static; */
+}
+.ForHeaderMainPic{
+  height: 45px;
+  top: 17px; 
+  position: relative;
+  left: 60px;
+  cursor: pointer;
+  transition: filter 0.3s ease-in-out;
+}
+.transparent-header {
+  position: fixed;
+  /* top: 0; */
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); Initial transparent background */
+  background-color: rgba(0, 0, 0, 0.846);
+  color: white;
+  /* padding: 10px 20px; */
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+}
+.transparent-header.scrolled {
+  background-color: white; /* Change background when scrolled */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.ForHeaderUL.scrolled-font li {
+  color: black; /* Change list item font color to black */
+}
+.ForLogBTN.scrolled-button {
+  color: white; /* Change list item font color to black */
+  background-color: purple;
+}
+.ForLogBTN.scrolled-button:hover {
+  color: white; /* Change list item font color to black */
+  background-color: rgb(189, 9, 189);
+  transition: ease-in-out all 1s;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.ForHeaderUL{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  position: relative;
+  gap: 40px;
+  left: 110px;
+  top: 30px;
+  font-size: 12px;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  /* font-weight: bold; */
+  font-weight: 750;
+}
+.ForSearchIcon{
+  left: 30px;
+  position: relative;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.ForWorldIcon{
+  left: 30px;
+  position: relative;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.forWorldIcon{
+  padding-right: 5px;
+}
+.ForVIsa{
+  left: 20px;
+  position: relative;
+  top: 3px;
+  font-size: 13px;
+}
+.ForLogBTN{
+  padding: 14px 30px;
+  left: 20px;
+  position: relative;
+  bottom: 12px;
+  background-color: white;
+  color: #717171;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 70px;
+  font-weight: 700;
+  text-decoration: inherit;
+  border: none;
+  cursor: pointer;
+}
+.ForLogBTN:hover{
+  background-color: rgba(255, 255, 255, 0.946);
+}
+.DropdownMenu {
+  height: 220px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: 45px; 
+  left: 0;
+  display: none; 
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  min-width: 150px;
+  font-size: 13px;
+  width: 50%;
+  justify-content: space-evenly;
+  background: url(/media/demo1.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.DropdownMenu li {
+  top: 25px;
+  left: 95px;
+  position: relative;
+  padding: 8px 12px;
+  white-space: nowrap;
+}
+.DropdownMenu li:hover {
+  /* background-color: #eaeaea; */
+  color: purple;
+}
+.ForDestination:hover .DropdownMenu {
+  display: block; 
+}
+.forUnderLi{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ForLiDesignImg{
+  top: 38px;
+  position: relative;
+  width: 562px;
+  right: 10px;
+  /* border-bottom-left-radius: 19px; */
+  /* border-bottom-right-radius: 20px; */
+}
+.forUnderLi2{
+  margin-left: 40px;
+  position: relative;
+}
+.forCurDest{
+  cursor: pointer;
+}
+.forViewLi{
+  color: purple;
+}
+.Drop {
+  height: 220px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: 45px; 
+  left: 100px;
+  display: none; 
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  min-width: 150px;
+  width: 50%;
+  justify-content: space-evenly;
+  background: url(/media/demo2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.472);
+  background-blend-mode: hue;
+}
+.Drop li {
+  top: 25px;
+  left: 95px;
+  position: relative;
+  padding: 8px 12px;
+  white-space: nowrap;
+}
+.Drop li:hover {
+  /* background-color: #eaeaea; */
+  color: purple;
+}
+.ForToDo:hover .Drop {
+  display: block; 
+}
+.UnderLi{
+  display: flex;
+  flex-wrap: wrap;
+}
+.LiDesignImg{
+  /* position: relative ; */
+  margin-top: 10px;
+  /* right: 10px ; */
+  /* border-bottom-left-radius: 15px; */
+  /* overflow: hidden; */
+  width: 580px;
+}
+.UnderLi2{
+  margin-left: 10px;
+  position: relative;
+}
+.forCurToDo{
+  cursor: pointer;
+}
+.ViewLi{
+  color: purple;
+}
+.DropTrip {
+  height: 220px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: 45px; 
+  left: 250px;
+  display: none; 
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  min-width: 150px;
+  width: 50%;
+  justify-content: space-evenly;
+  background: url(/media/demo3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.472);
+  background-blend-mode: hue;
+}
+.DropTrip li {
+  top: 25px;
+  left: 95px;
+  position: relative;
+  padding: 8px 12px;
+  white-space: nowrap;
+}
+.DropTrip li:hover {
+  /* background-color: #eaeaea; */
+  color: purple;
+}
+.ForTrip:hover .DropTrip {
+  display: block; 
+}
+.UnderLi{
+  display: flex;
+  flex-wrap: wrap;
+}
+.LiDesignImg{
+  top: 33px ;
+  position: relative;
+  width: 562px;
+  right: 10px;
+  /* border-radius: 3px; */
+  border-bottom-left-radius: 15px;
+}
+.forCurTrip{
+  cursor: pointer;
+}
+.ViewLi1{
+  color: purple;
+  margin-left: 100px;
+}
+.ForHOverursor{
+  cursor: pointer;
+}
+/* Header End */
+
+/* Section One Start */
+.ForScOneBack{
+  background-color: rgba(128, 128, 128, 0.063);
+  margin-bottom: 50px;
+}
+.ForSecOneVideo{
+  width: 100%;
+  /* height: 100%; */
+  position: relative;
+  max-height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.SecOneH1{
+  top: 72%; 
+  left: 7%;
+  position: absolute;
+  /* transform: translate(-50%, -50%);  */
+  color: white;
+  font-size: 40px; 
+  font-family: "Inter", serif;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.ForSecondH1{
+  margin: 60px 100px;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+}
+/* Carousel Row */
+.carousel {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+  scrollbar-width: none; 
+}
+/* Carousel Items */
+.carousel-item {
+  min-width: 360px;
+  max-width: 250px;
+  height: 370px;
+  background: #fff;
+  border: none solid #ddd;
+  border-radius: 18px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.carousel-item:hover {
+  transform: scale(1.05);
+}
+.carousel-image {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.carousel-title {
+  font-size: 14px;
+  font-family: "Inter", serif;
+  font-weight: bold;
+  color: black;
+  margin: 10px 0 5px;
+  align-items: start;
+  justify-content: left;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.carousel-price {
+  font-size: 17px;
+  font-family: "Inter", serif;
+  color: black;
+  font-weight: 700;
+  align-items: start !important;
+  justify-content: left !important;
+}
+/* Scroll Buttons */
+.scroll-button {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  font-size: 15px;
+}
+.scroll-button.left {
+  left: 5px;
+}
+.scroll-button.right {
+  right: 1px;
+}
+.scroll-button:hover {
+  background-color: #eee;
+}
